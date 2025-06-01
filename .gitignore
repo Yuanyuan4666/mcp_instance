@@ -1,0 +1,24 @@
+# 通用 Python 项目忽略
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 日志和临时文件
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+
+# 本地开发配置
+.env
+.local
+.secrets
+config.yml
